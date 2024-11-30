@@ -140,12 +140,12 @@ def initialize_model_and_data():
 
 # Main async function
 async def main():
-    st.set_page_config(page_title="AI Mental Health Assistance", page_icon="🧠", layout="wide")
+    st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="wide")
 
     model, words, classes, data = initialize_model_and_data()
 
-    st.title("AI Powered Mental Health Assistance")
-    st.markdown("Welcome to your personal mental health assistant. Feel free to share your thoughts and concerns.")
+    st.title("AI Powered Chatbot")
+    st.markdown("Welcome to your personal assistant. Feel free to share your thoughts and concerns.")
 
     # Sidebar options
     with st.sidebar:
